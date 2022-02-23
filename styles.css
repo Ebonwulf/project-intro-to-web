@@ -2,5 +2,70 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+@media screen and (max-width: 550px) {
+  * body {
+    width: 100%;
+  }
+}
+
+body {
   background-color: #f3f3eb;
+  text-align: center;
+}
+
+.heading-img {
+  grid-area: img;
+}
+
+.main-heading {
+  grid-area: penguins;
+}
+
+.login {
+  grid-area: login;
+}
+
+.head-container {
+  display: grid;
+  justify-items: start;
+  grid-template-areas: "img penguins login";
+}
+
+.p1 {
+  grid-area: p1;
+}
+
+.penguin1 {
+  grid-area: penguin1;
+}
+
+.p2 {
+  grid-area: p2;
+}
+
+.penguin2 {
+  grid-area: penguin2;
+}
+
+.p3 {
+  grid-area: p3;
+}
+
+.penguin3 {
+  grid-area: penguin3;
+}
+
+.p4 {
+  grid-area: p4;
+}
+
+.penguin4 {
+  grid-area: penguin4;
+}
+
+.info-container {
+  display: grid;
+  justify-items: center;
+  grid-template-areas: "p1 penguin1" "penguin2 p2" "p3 penguin3" "penguin4 p4";
 }
