@@ -6,6 +6,7 @@
 @media screen and (max-width: 550px) {
   * body {
     width: 100%;
+    height: 100%;
   }
 }
 
@@ -20,6 +21,8 @@ body {
 
 .main-heading {
   grid-area: penguins;
+  font-size: 60px;
+  color: #020281;
 }
 
 .login {
@@ -28,7 +31,8 @@ body {
 
 .head-container {
   display: grid;
-  justify-items: start;
+  height: 10vh;
+  place-items: center/center;
   grid-template-areas: "img penguins login";
 }
 
@@ -66,6 +70,30 @@ body {
 
 .info-container {
   display: grid;
-  justify-items: center;
+  width: 100%;
+  padding: 20px 0;
+  text-align: start;
+  font-size: 20px;
   grid-template-areas: "p1 penguin1" "penguin2 p2" "p3 penguin3" "penguin4 p4";
+}
+
+.paras {
+  padding: 10px;
+  color: #020281;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer {
+  width: 100%;
+  height: 20vh;
+  padding: 20px 0;
+  background-color: antiquewhite;
+}
+
+footer a {
+  display: block;
+  padding: 10px;
+  font-size: 30px;
+  color: #020281;
+  text-decoration: none;
 }
