@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@100;300;700&display=swap');
+$font-main: 'Roboto', sans-serif;
+$font-secondary: 'Balsamiq Sans', sans-serif;
+
+$primary-font-color: rgb(5, 5, 99);
+$secondary-font-color: rgb(89, 206, 252);
+$white-color: rgb(245, 245, 240);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  @media screen and (min-width: 480px) {
+    body {
+      width: 320px;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+body {
+  background-color: $white-color;
+  text-align: center;
+  height: 100%;
+}
+
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
+}
+
+main {
+  padding: 0 10px;
+}
+
+.p1 {
+  grid-area: p1;
+}
+.penguin1 {
+  grid-area: penguin1;
+}
+.p2 {
+  grid-area: p2;
+}
+.penguin2 {
+  grid-area: penguin2;
+}
+.p3 {
+  grid-area: p3;
+}
+.penguin3 {
+  grid-area: penguin3;
+}
+.p4 {
+  grid-area: p4;
+}
+.penguin4 {
+  grid-area: penguin4;
+}
+
+.info-container {
+  display: grid;
+  width: 100%;
+  padding: 20px 0;
+  text-align: start;
+  grid-template-areas:
+    'p1 penguin1'
+    'penguin2 p2'
+    'p3 penguin3'
+    'penguin4 p4';
+}
