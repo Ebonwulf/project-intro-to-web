@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cormorant+Garamond:wght@300;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,29 +12,54 @@
 }
 
 body {
-  background-color: #f3f3eb;
+  background-color: #f5f5f0;
   text-align: center;
 }
 
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 10px;
+}
+
 .heading-img {
-  grid-area: img;
+  width: 10%;
 }
 
 .main-heading {
-  grid-area: penguins;
-  font-size: 60px;
-  color: #020281;
+  width: 50%;
+  color: #050563;
+  font-size: 50px;
+  margin-right: 20px;
+  font-family: "Cormorand Garamond", sans-serif;
 }
 
 .login {
-  grid-area: login;
+  width: 30%;
+  height: 75%;
+  padding: 10px;
+  border: 2px solid #050563;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #050563;
+  margin-left: 10px;
 }
 
-.head-container {
-  display: grid;
-  height: 10vh;
-  place-items: center/center;
-  grid-template-areas: "img penguins login";
+main {
+  padding: 0 20px;
+}
+
+.heading {
+  color: #1975ff;
+  font-size: 30px;
+  padding: 20px 30px;
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+.app-img {
+  padding: 30px 0;
 }
 
 .p1 {
@@ -79,8 +105,9 @@ body {
 
 .paras {
   padding: 10px;
-  color: #020281;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #050563;
+  font-family: "Cormorand Garamond", sans-serif;
+  font-weight: 300;
 }
 
 footer {
@@ -94,6 +121,6 @@ footer a {
   display: block;
   padding: 10px;
   font-size: 30px;
-  color: #020281;
+  color: #050563;
   text-decoration: none;
 }
